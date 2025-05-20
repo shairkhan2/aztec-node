@@ -2,12 +2,6 @@
 
 # 👨🏻‍💻 **Aztec Sequencer Guide** 👨🏻‍💻
 
-</div>
-
-# 🖥️ Device/System Requirements 
-
-![image](https://github.com/user-attachments/assets/9e7e78a8-ddeb-4e0b-90a8-46f2ab5886b3)
-
 
 
 # Pre-Requirements 🛠
@@ -117,51 +111,6 @@ https://www.alchemy.com/faucets/ethereum-sepolia
 
 
 
-# Allow Incoming connections on Ports 
-
-```
-sudo ufw allow 22
-sudo ufw allow ssh
-sudo ufw enable
-```
-
-```
-sudo ufw allow 40400
-sudo ufw allow 8080
-```
-
-# Get Seapolia and Beacon API Key's Free of Cost
-
-* Go to - https://tinyurl.com/y8v7tm2d
-
-* Manually Sign up with Email address- u will rcvd 100$ voucher- (Dont sign up with Google)
-
-* Select Ethereum Sepolia
-
-* Scroll Down and Select the Growth Plan for which RPC u need, (Sepolia or Beacon) 
-
-* Click on `Select Voucher`
-
-* Select `50$ Voucher`
-
-* Now Click on `Pay with Balance`
-
-* Here we go... U got your API key for free!
-
-* U can see your Api key on API section!
-
-![Screenshot 2025-05-15 172028](https://github.com/user-attachments/assets/409a5c1e-9c2d-4653-a7e0-2e24711d0470)
-
-
-* More Other Sites!
-
-https://drpc.org/dashboard
-
-https://developer.metamask.io/key/active-endpoints
-
-https://www.alchemy.com
-
-
 <div  align="center">
    
 #  Start Your Sequencer 🍥
@@ -212,27 +161,6 @@ aztec start --node --archiver --sequencer \
 ![Screenshot 2025-05-02 172143](https://github.com/user-attachments/assets/37ae2455-8b98-4642-bf14-0f5e1ed90cf2)
 
 
-# ♦️ Use this Template for saving data:
-
- ------👇Save These Info/Data👇 ------
-
-Aztec Sequencer Node ( XXXXX dc)
-
-• Ethereum sepolia rpc : 
-
-• Beacon_sepolia_RPC : 
-
-• PVT KEY : 
-
-• MM Public Address : 
-
-• IP ( cloud vps) : 
-
-• Block Number : 
-
-• Base64 encoded string : 
-
------- 👆Save These Info/Data👆 ------
 
 
 # Detached and Attached From the Screen
