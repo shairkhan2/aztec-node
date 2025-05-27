@@ -243,8 +243,7 @@ screen -S bot
 git clone https://github.com/shairkhan2/aztec-node.git
 ```
 ```
-cd aztec-node/aztec-bot && python3 main.py
-
+cd aztec-node && python3 main.py
 ```
 
 # Register as a Validator 🔗⛓️
