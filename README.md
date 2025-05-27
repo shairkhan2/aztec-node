@@ -237,6 +237,9 @@ http://localhost:8080 | jq -r ".result"
 
 # tg alert bot
 ```
+screen -S bot
+```
+```
 git clone https://github.com/shairkhan2/aztec-node.git
 ```
 ```
