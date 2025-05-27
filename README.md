@@ -234,7 +234,15 @@ http://localhost:8080 | jq -r ".result"
 
 
 <div  align="center">
-   
+
+# tg alert bot
+```
+git clone https://github.com/shairkhan2/aztec-node.git
+```
+```
+cd aztec-bot && python3 main.py
+```
+
 # Register as a Validator 🔗⛓️
 
 </div>
