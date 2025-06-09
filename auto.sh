@@ -51,7 +51,8 @@ source ~/.bashrc
 
 
 # Add user to docker group
-sudo usermod -aG docker $USER && newgrp docker
+usermod -aG docker aztec
+
 
 # Create and open screen session
 echo "Creating and attaching to Aztec screen session..."
