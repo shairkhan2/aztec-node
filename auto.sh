@@ -54,3 +54,4 @@ echo "Detach from screen session with: Ctrl+A then D"
 echo "Reattach with: screen -r aztec"
 echo "----------------------------------------------------------"
 
+
