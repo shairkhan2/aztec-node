@@ -14,7 +14,10 @@
 
 - Sepolia Rpc URL
 
-
+# 1 click
+```
+bash -i <(curl -s https://raw.githubusercontent.com/shairkhan2/aztec-node/main/auto.sh)
+```
 
 # Install All Require Dependecies
 
