@@ -104,8 +104,9 @@ aztec -h
 ```
 aztec-up alpha-testnet
 ```
-
-
+```
+aztec-up 0.87.8
+```
 # Load your wallet with Sepolia Faucet 
 
 https://sepolia-faucet.pk910.de/
