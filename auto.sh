@@ -12,6 +12,7 @@ fi
 echo "Updating system packages..."
 apt-get update
 apt-get upgrade -y
+apt install screen -y
 
 echo "Installing Node.js..."
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
