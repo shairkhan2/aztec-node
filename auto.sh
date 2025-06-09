@@ -53,11 +53,9 @@ usermod -aG docker $SUDO_USER
 
 # Create and open screen session
 echo "Creating and attaching to Aztec screen session..."
-sudo -u $SUDO_USER bash -c '
-    source ~/.bashrc
-    screen -S aztec -d -m bash -c "aztec-up alpha-testnet; aztec-up 0.87.7; echo $'\''\nAztec services are running. Press Ctrl+C to stop.'\''; sleep infinity"
-    screen -r aztec
-'
+bash -c 'source ~/.bashrc && screen -S aztec -dm bash -c "aztec-up alpha-testnet && aztec-up 0.87.7 && echo -e \"\nAztec services are running. Press Ctrl+C to stop.\" && sleep infinity"'
+screen -r aztec
+
 
 echo "----------------------------------------------------------"
 echo "Installation complete!"
