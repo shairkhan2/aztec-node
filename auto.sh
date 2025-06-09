@@ -53,7 +53,7 @@ usermod -aG docker $SUDO_USER
 
 # Create and open screen session
 echo "Creating and attaching to Aztec screen session..."
-bash -c 'source ~/.bashrc && screen -S aztec -dm bash -c "aztec-up alpha-testnet && aztec-up 0.87.7 && echo -e \"\nAztec services are running. You can interact below. Use Ctrl+a d to detach.\" && exec bash"'
+bash -c 'source ~/.bashrc && screen -S aztec -dm bash -c "aztec-up alpha-testnet && aztec-up 0.87.8 && echo -e \"\nAztec services are running. You can interact below. Use Ctrl+a d to detach.\" && exec bash"'
 screen -r aztec
 
 
