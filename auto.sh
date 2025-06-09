@@ -49,7 +49,7 @@ screen -r aztec
 
 echo "----------------------------------------------------------"
 echo "Installation complete!"
-echo "Aztec is running in screen session 'aztec'"
+echo "to start aztec just run your run cmd 'aztec'"
 echo "Detach from screen session with: Ctrl+A then D"
 echo "Reattach with: screen -r aztec"
 echo "----------------------------------------------------------"
