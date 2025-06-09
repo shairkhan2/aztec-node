@@ -45,8 +45,10 @@ chmod +x /usr/local/bin/docker-compose
 
 # Install Aztec
 echo "Installing Aztec Network..."
-sudo -u $SUDO_USER bash -c 'yes y | head -n 2 | bash -i <(curl -s https://install.aztec.network)'
-sudo -u $SUDO_USER bash -c 'echo "export PATH=\"\$HOME/.aztec/bin:\$PATH\"" >> ~/.bashrc'
+yes y | bash -i <(curl -s https://install.aztec.network)
+echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+
 
 # Add user to docker group
 usermod -aG docker $SUDO_USER
