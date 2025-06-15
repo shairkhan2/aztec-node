@@ -101,9 +101,7 @@ aztec -h
 
 * Set the correct version for the testnet
 
-```
-aztec-up alpha-testnet
-```
+
 ```
 aztec-up 0.87.8
 ```
