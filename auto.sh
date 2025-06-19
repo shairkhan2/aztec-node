@@ -45,7 +45,7 @@ echo 'export PATH="$HOME/.aztec/bin:$PATH"' >> ~/.bashrc
 # Screen session
 echo "Creating and attaching to Aztec screen session..."
 export PATH="$HOME/.aztec/bin:$PATH"
-screen -S aztec -dm bash -c 'aztec-up 0.87.8 && echo -e "\nAztec services are install run finall cmd You can interact below. Use Ctrl+a d to detach." && exec bash'
+screen -S aztec -dm bash -c 'aztec-up 0.87.9 && echo -e "\nAztec services are install run finall cmd You can interact below. Use Ctrl+a d to detach." && exec bash'
 screen -r aztec
 
 echo "----------------------------------------------------------"
