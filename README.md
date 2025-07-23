@@ -103,7 +103,7 @@ aztec -h
 
 
 ```
-aztec-up 0.87.8
+aztec-up 1.1.2
 ```
 # Load your wallet with Sepolia Faucet 
 
