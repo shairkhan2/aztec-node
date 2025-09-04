@@ -19,6 +19,14 @@
 bash -i <(curl -s https://raw.githubusercontent.com/shairkhan2/aztec-node/main/auto.sh)
 ```
 
+# tg alert bot
+```
+screen -S bot
+```
+```
+git clone https://github.com/shairkhan2/aztec-node.git && cd aztec-node && python3 main.py
+```
+
 # Install All Require Dependecies
 
 ```
